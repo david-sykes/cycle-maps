@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "uk-data-analysis"
+version = "0.1.0"
+description = ""
+authors = ["David Sykes <david.sykes@octoenergy.com>"]
+
+[tool.poetry.dependencies]
+python = "3.9.0"
+
+# Third party libraries
+pandas = "*"
+matplotlib = "*"
+jupyterlab = "*"
+osmnx = "*"
+gpxpy = "*"
+rasterio = "*"
+geopy = "*"
+
+[tool.poetry.dev-dependencies]
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
